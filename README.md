@@ -2,6 +2,12 @@
 
 [Check it out](https://rajan-kumar.vercel.app/)
 
+## Snap
+![image](https://github.com/RK-41/portfolio2/assets/73783957/433b564d-7bd4-4c03-8621-a6804f605936)
+
+<!-- <img src="https://github.com/RK-41/portfolio2/assets/73783957/433b564d-7bd4-4c03-8621-a6804f605936" alt="portfolio" width="800"/>
+-->
+
 <!-- 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
