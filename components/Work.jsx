@@ -44,7 +44,7 @@ const projectData = [
 	{
 		image: '/work/shopWay.png',
 		category: 'fullstack',
-		name: 'ShopWap',
+		name: 'ShopWay',
 		description: 'E-commerce website',
 		link: 'https://shopway-aw74.onrender.com/',
 		github: 'https://github.com/RK-41/shopway',
