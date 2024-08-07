@@ -16,40 +16,8 @@ import { Pagination } from 'swiper/modules';
 // components
 import ProjectCard from '@/components/ui/ProjectCard';
 
-const projectData = [
-	{
-		image: '/work/cineFlix.png',
-		category: 'vanilla js',
-		name: 'Cine Flix',
-		description: 'Cinema database website',
-		link: 'https://main--cineflixwebsite.netlify.app/',
-		github: 'https://github.com/RK-41/vsis-internship-task4',
-	},
-	{
-		image: '/work/taskManager.png',
-		category: 'react js',
-		name: 'Task Manager',
-		description: 'A web app to keep track of various tasks',
-		link: 'https://task-manager-five-jade.vercel.app/',
-		github: 'https://github.com/RK-41/task-manager',
-	},
-	{
-		image: '/work/digIt.png',
-		category: 'next js',
-		name: 'Dig IT',
-		description: 'Website for IT solution providing agency',
-		link: 'https://dig-it-eta.vercel.app/',
-		github: 'https://github.com/RK-41/dig-it',
-	},
-	{
-		image: '/work/shopWay.png',
-		category: 'fullstack',
-		name: 'ShopWay',
-		description: 'E-commerce website',
-		link: 'https://shopway-aw74.onrender.com/',
-		github: 'https://github.com/RK-41/shopway',
-	},
-];
+// data
+import { projectData } from '@/app/projects/page';
 
 const Work = () => {
 	return (

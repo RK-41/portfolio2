@@ -72,16 +72,16 @@ const skillData = [
 		title: 'skills',
 		data: [
 			{
-				name: 'HTML, CSS, JavaScript, TypeScript, C++',
+				name: 'HTML, CSS, JavaScript, TypeScript, C++, Python',
 			},
 			{
-				name: 'ReactJS, NextJS',
+				name: 'ReactJS, NextJS, ReduxJS',
 			},
 			{
 				name: 'NodeJS, ExpressJS',
 			},
 			{
-				name: 'MongoDB, Mongoose',
+				name: 'MongoDB, Mongoose, Firebase',
 			},
 			{
 				name: 'Git, GitHub',
@@ -103,11 +103,13 @@ const skillData = [
 		],
 	},
 ];
+
 const About = () => {
 	const getData = (arr, title) => {
 		return arr.find((item) => item.title === title);
 	};
-	console.log(getData(qualificationData, 'education'));
+	// console.log(getData(qualificationData, 'education'));
+
 	return (
 		<section className='xl:h-[860px] pb-12 xl:py-24'>
 			<div className='container mx-auto'>

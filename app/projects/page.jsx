@@ -3,7 +3,15 @@ import React, { useState } from 'react';
 import { Tabs, TabsList, TabsContent, TabsTrigger } from '@/components/ui/tabs';
 import ProjectCard from '@/components/ui/ProjectCard';
 
-const projectData = [
+export const projectData = [
+	{
+		image: '/work/portfolio3.png',
+		category: 'next.js',
+		name: 'Portfolio',
+		description: 'My another portfolio website',
+		link: 'https://rk-41.github.io/portfolio3/',
+		github: 'https://github.com/RK-41/portfolio3',
+	},
 	{
 		image: '/work/cineFlix.png',
 		category: 'vanilla js',
@@ -14,7 +22,7 @@ const projectData = [
 	},
 	{
 		image: '/work/taskManager.png',
-		category: 'react js',
+		category: 'react.js',
 		name: 'Task Manager',
 		description: 'A web app to keep track of various tasks',
 		link: 'https://task-manager-five-jade.vercel.app/',
@@ -22,7 +30,7 @@ const projectData = [
 	},
 	{
 		image: '/work/digIt.png',
-		category: 'next js',
+		category: 'next.js',
 		name: 'Dig IT',
 		description: 'Website for IT solution providing agency',
 		link: 'https://dig-it-eta.vercel.app/',

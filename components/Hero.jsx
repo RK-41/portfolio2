@@ -40,9 +40,14 @@ const Hero = () => {
 								</Button>
 							</Link>
 
-							<Button variant='secondary' className='gap-x-2'>
-								Download CV <Download size={18} />
-							</Button>
+							<Link
+								href='https://drive.google.com/file/d/1zTzQqVFEcgcHFp2CC-_tIt2cdYNf5z4B/view?usp=sharing'
+								target='_blank'
+							>
+								<Button variant='secondary' className='gap-x-2'>
+									Download CV <Download size={18} />
+								</Button>
+							</Link>
 						</div>
 
 						{/* socials */}
