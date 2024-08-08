@@ -9,8 +9,8 @@ export const projectData = [
 		category: 'next.js',
 		name: 'Portfolio',
 		description: 'My another portfolio website',
-		link: 'https://rk-41.github.io/portfolio3/',
-		github: 'https://github.com/RK-41/portfolio3',
+		link: 'https://portfolio31-rk-41s-projects.vercel.app/',
+		github: 'https://github.com/RK-41/portfolio3/tree/portfolio3.1',
 	},
 	{
 		image: '/work/cineFlix.png',
