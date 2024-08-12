@@ -15,7 +15,7 @@ export const projectData = [
 	},
 	{
 		id: '5',
-		name: 'Cine Flix',
+		name: 'CineFlix',
 		description: 'A database for cinema contents',
 		category: 'vanilla js',
 		image: '/work/cineFlix.png',
