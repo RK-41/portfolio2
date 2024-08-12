@@ -52,7 +52,7 @@ export const projectData = [
 	{
 		id: '1',
 		name: 'ShopWay',
-		description: 'E-commerce website',
+		description: 'E-commerce website for electronic products',
 		category: 'fullstack',
 		image: '/work/shopWay.png',
 		link: 'https://shopway-aw74.onrender.com/',
